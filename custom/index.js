@@ -1,4 +1,8 @@
 const nju = require("./nju");
+const file = require("./file");
 module.exports = {
-  "nju" : nju,
+  "nju"  : nju,
+  "bfsu" : async (e) => file("bfsu", e),
+  "nano" : async (e) => file("tuna", e),
+  "neo"  : async (e) => file("tuna", e),
 };

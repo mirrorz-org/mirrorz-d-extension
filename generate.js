@@ -20,10 +20,11 @@ async function main() {
   fs.mkdirSync("./dist/", { recursive: true });
   for (site in LIST) {
     const mirrorzd = await load(LIST[site]);
-    fs.writeFileSync(
-      "./dist/" + site + ".d.json",
-      JSON.stringify(mirrorzd, null, 2)
-    );
+    if (mirrorzd !== null)
+      fs.writeFileSync(
+        "./dist/" + site + ".d.json",
+        JSON.stringify(mirrorzd, null, 2)
+      );
   }
   process.exit(0);
 }
