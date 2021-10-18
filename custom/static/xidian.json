@@ -5,7 +5,6 @@
       "resolve": "linux.xidian.edu.cn/mirrors",
       "filter": [
         "V4",
-        "V6",
         "SSL",
         "NOSSL"
       ],
