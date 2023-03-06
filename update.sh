@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-kill -HUP `cat /run/mirrorzd.pid`
+kill -HUP `systemctl show --property MainPID mirrorzd.service | cut -d = -f 2`
