@@ -1,0 +1,27 @@
+[
+    {
+        "label": "qlut",
+        "public": true,
+        "resolve": "mirrors.qlu.edu.cn",
+        "filter": [
+            "V4",
+            "SSL",
+            "NOSSL"
+        ],
+        "range": [
+            "AS4538"
+        ]
+    },
+    {
+        "label": "qlut6",
+        "public": true,
+        "resolve": "mirrors.qlu.edu.cn",
+        "filter": [
+            "V6",
+            "NOSSL"
+        ],
+        "range": [
+            "AS23910"
+        ]
+    }
+]
