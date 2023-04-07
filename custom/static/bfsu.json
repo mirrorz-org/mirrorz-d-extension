@@ -1,55 +1,28 @@
 [
   {
-     "label": "bfsu",
-     "public": true,
-     "resolve": "mirrors.bfsu.edu.cn",
-     "range": [
-       "AS4538",
-       "AS23910"
-     ],
-     "filter": [
-       "V4",
-       "V6",
-       "SSL",
-       "NOSSL"
-     ]
+    "label": "bfsu",
+    "public": true,
+    "resolve": "mirrors.bfsu.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CERNET"
+    ],
+    "filter": [
+      "V4",
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
   },
   {
     "label": "bfsu4",
     "public": true,
     "resolve": "mirrors4.bfsu.edu.cn",
     "range": [
-      "AS9394",
-
-	  "AS9808",
-	  "AS56046",
-	  "AS56040",
-	  "AS56048",
-	  "AS56041",
-	  "AS24400",
-	  "AS56044",
-	  "AS24445",
-	  "AS24444",
-	  "AS56042",
-	  "AS56047",
-	  "AS24547",
-	  "AS132525",
-	  "AS38019",
-	  "AS134810",
-	  "AS139080",
-	  "AS141425",
-	  "AS138407",
-	  "AS140105",
-	  "AS56045",
-	  "AS45120",
-	  "AS268555",
-	  "AS24311",
-	  "AS24059",
-	  "AS140895",
-	  "AS136755",
-	  "AS133812",
-	  "AS132511",
-	  "AS132501"
+      "COUNTRY:CN",
+      "REGION:BJ",
+      "ISP:CMCC"
     ],
     "filter": [
       "V4",
@@ -58,17 +31,18 @@
     ]
   },
   {
-     "label": "bfsu6",
-     "public": true,
-     "resolve": "mirrors6.bfsu.edu.cn",
-     "range": [
-       "AS4538",
-       "AS23910"
-     ],
-     "filter": [
-       "V6",
-       "SSL",
-       "NOSSL"
-     ]
+    "label": "bfsu6",
+    "public": true,
+    "resolve": "mirrors6.bfsu.edu.cn",
+    "range": [
+     "COUNTRY:CN",
+     "REGION:BJ",
+     "ISP:CERNET"
+    ],
+    "filter": [
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
   }
 ]
