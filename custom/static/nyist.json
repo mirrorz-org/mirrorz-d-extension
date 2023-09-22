@@ -1,0 +1,48 @@
+[
+  {
+    "label": "nyist",
+    "public": true,
+    "resolve": "mirror.nyist.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:HA",
+      "ISP:CERNET"
+    ],
+    "filter": [
+      "V4",
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  },
+  {
+    "label": "nyist4",
+    "public": true,
+    "resolve": "mirror4.nyist.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:HA",
+      "ISP:CERNET"
+    ],
+    "filter": [
+      "V4",
+      "SSL",
+      "NOSSL"
+    ]
+  },
+  {
+    "label": "nyist6",
+    "public": true,
+    "resolve": "mirror6.nyist.edu.cn",
+    "range": [
+      "COUNTRY:CN",
+      "REGION:HA",
+      "ISP:CERNET"
+    ],
+    "filter": [
+      "V6",
+      "SSL",
+      "NOSSL"
+    ]
+  }
+]
