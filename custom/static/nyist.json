@@ -21,7 +21,7 @@
     "resolve": "mirror4.nyist.edu.cn",
     "range": [
       "COUNTRY:CN",
-      "REGION:HN",
+      "REGION:HA",
       "ISP:CERNET"
     ],
     "filter": [
@@ -36,7 +36,7 @@
     "resolve": "mirror6.nyist.edu.cn",
     "range": [
       "COUNTRY:CN",
-      "REGION:HN",
+      "REGION:HA",
       "ISP:CERNET"
     ],
     "filter": [
