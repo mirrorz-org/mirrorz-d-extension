@@ -12,5 +12,6 @@ module.exports = {
   "cqu"  : async (e) => file("cqu", e),
   "qlut" : async (e) => file("qlut",  e),
   "nyist" : async (e) => file("nyist",  e),
+  "geekpie" : async (e) => file("geekpie",  e),
   "xjtu" : xjtu,
 };
