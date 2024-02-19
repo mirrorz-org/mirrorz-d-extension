@@ -1,16 +1,16 @@
 [
   {
-	  "label": "shanghaitech-campus",
-	  "public": false,
-	  "resolve": "mirrors.shanghaitech.edu.cn",
-	  "filter": [
-			"V4",
-			"SSL"
-	  ],
-	  "range": [
-			"119.78.254.0/24",
-			"59.78.171.0/24",
-			"180.167.19.64/27"
-	  ]
-	}
+    "label": "shanghaitech-campus",
+    "public": false,
+    "resolve": "mirrors.shanghaitech.edu.cn",
+    "filter": [
+      "V4",
+      "SSL"
+    ],
+    "range": [
+      "119.78.254.0/24",
+      "59.78.171.0/24",
+      "180.167.19.64/27"
+    ]
+  }
 ]
