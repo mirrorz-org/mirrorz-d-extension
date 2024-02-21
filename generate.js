@@ -11,7 +11,14 @@ const LIST = {
   ...Object.fromEntries(
     config.d_parser.map((e) => [
       e,
-      async () => custom[e](await load(parsers[e])),
+      async () => {
+        if (parsers[e]) {
+          return custom[e](await load(parsers[e]));
+        } else {
+          // try load mirrorz file from config.mirrors
+          return custom[e](await load(config.mirrors[e]));
+        }
+      },
     ])
   ),
 };
