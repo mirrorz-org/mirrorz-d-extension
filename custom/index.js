@@ -14,4 +14,5 @@ module.exports = {
   "nyist" : async (e) => file("nyist",  e),
   "geekpie" : async (e) => file("geekpie",  e),
   "xjtu" : xjtu,
+  "lzu" : async (e) => file("lzu",  e),
 };
