@@ -12,7 +12,7 @@ This repo hosts scripts/meta that generate `mirrorz.d.json`, which are then used
 git clone git@github.com:mirrorz-org/mirrorz-config.git config
 pushd config && ln -sf config/mirrors.cernet.edu.cn.json config.json && popd
 git clone git@github.com:mirrorz-org/mirrorz-parser.git parser
-pushd parser && ln -sf ../config/config.json config.json && popd
+pushd parser && ln -sf ../config/config.json config.json && npm i && popd
 ```
 
 Use `node generate.js` to generate data in `/dist`
