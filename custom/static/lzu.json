@@ -1,0 +1,18 @@
+[
+    {
+      "label": "lzu",
+      "public": true,
+      "resolve": "mirror.lzu.edu.cn",
+      "filter": [
+        "V4",
+        "V6",
+        "SSL",
+        "NOSSL"
+      ],
+      "range": [
+        "COUNTRY:CN",
+        "REGION:GS",
+        "ISP:CERNET"
+      ]
+    }
+]
