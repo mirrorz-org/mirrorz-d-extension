@@ -1,0 +1,17 @@
+[
+    {
+        "label": "jcut",
+        "resolve": "mirrors.jcut.edu.cn",
+        "public": true,
+        "range": [
+            "COUNTRY:CN",
+            "REGION:HB",
+            "ISP:CMCC"
+        ],
+        "filter": [
+            "V4",
+            "SSL",
+            "NOSSL"
+        ]
+    }
+]
