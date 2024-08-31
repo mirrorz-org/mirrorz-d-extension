@@ -9,6 +9,7 @@
             "ISP:CMCC"
         ],
         "filter": [
+            "V6", 
             "V4",
             "SSL",
             "NOSSL"
