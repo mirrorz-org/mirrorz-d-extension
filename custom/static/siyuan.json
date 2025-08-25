@@ -1,7 +1,7 @@
 [
   {
     "label": "sjtug",
-    "public": true,
+    "public": false,
     "resolve": "mirror.sjtu.edu.cn",
     "filter": ["V4", "V6", "SSL", "NOSSL"],
     "range": [
