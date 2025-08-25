@@ -1,0 +1,9 @@
+[
+  {
+    "label": "sdu",
+    "public": true,
+    "resolve": "mirrors.sdu.edu.cn",
+    "filter": ["V6", "SSL"],
+    "range": ["AS4538", "AS23910", "REGION:SD"]
+  }
+]
