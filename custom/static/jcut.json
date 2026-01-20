@@ -2,7 +2,7 @@
     {
         "label": "jcut",
         "resolve": "mirrors.jcut.edu.cn",
-        "public": false,
+        "public": true,
         "range": [
             "COUNTRY:CN",
             "REGION:HB",
