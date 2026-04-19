@@ -19,4 +19,5 @@ module.exports = {
   "sdu"     : async (e) => file("sdu",     e),
   "siyuan"  : async (e) => file("siyuan",  e),
   "zhiyuan" : async (e) => file("zhiyuan", e),
+  "zju"     : async (e) => file("zju",     e),
 };
