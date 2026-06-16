@@ -5,6 +5,7 @@
     "resolve": "mirrors.cqu.edu.cn",
     "filter": [
       "V6",
+      "V4",
       "SSL",
       "NOSSL"
     ],
