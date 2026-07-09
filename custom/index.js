@@ -10,6 +10,7 @@ module.exports = {
   "hit"     : async (e) => file("hit",     e),
   "bjtu"    : async (e) => file("bjtu",    e),
   "cqu"     : async (e) => file("cqu",     e),
+  "cqupt"   : async (e) => file("cqupt",   e),
   "qlut"    : async (e) => file("qlut",    e),
   "nyist"   : async (e) => file("nyist",   e),
   "geekpie" : async (e) => file("geekpie", e),
