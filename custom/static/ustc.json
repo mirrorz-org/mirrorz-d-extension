@@ -1,0 +1,9 @@
+[
+  {
+    "label": "ustc",
+    "public": false,
+    "resolve": "mirrors.ustc.edu.cn",
+    "filter": [],
+    "range": []
+  }
+]

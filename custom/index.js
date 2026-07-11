@@ -19,6 +19,7 @@ module.exports = {
   "jcut"    : async (e) => file("jcut",    e),
   "sdu"     : async (e) => file("sdu",     e),
   "siyuan"  : async (e) => file("siyuan",  e),
+  "ustc"    : async (e) => file("ustc",    e),
   "zhiyuan" : async (e) => file("zhiyuan", e),
   "zju"     : async (e) => file("zju",     e),
 };
